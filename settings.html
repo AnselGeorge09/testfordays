@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings - INDIANHUB</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="play.html">Games</a></li>
+      <li><a href="settings.html">Settings</a></li>
+      <li><a href="index.html" class="logo">INDIANHUB</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Settings</h1>
+    <div class="settings-container">
+      <div class="setting">
+        <label for="background-color">Background Color:</label>
+        <input type="color" id="background-color" value="#282828">
+      </div>
+      <div class="setting">
+        <label for="font-theme">Font Theme:</label>
+        <select id="font-theme">
+          <option value="Arial, sans-serif">Default</option>
+          <option value="Georgia, serif">Serif</option>
+          <option value="'Courier New', monospace">Monospace</option>
+        </select>
+      </div>
+      <button id="save-settings">Save Settings</button>
+    </div>
+  </main>
+
+  <script src="settings.js"></script>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 INDIANHUB. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+
+</html>
